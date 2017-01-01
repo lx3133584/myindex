@@ -198,7 +198,7 @@ body{
     color: #FFFFFF;
     text-align: center;
 }
-.agileinfo-social-grids ul li a i.fa.fa-facebook, .agileinfo-social-grids ul li a i.fa.fa-twitter, .agileinfo-social-grids ul li a i.fa.fa-rss, .agileinfo-social-grids ul li a i.fa.fa-vk {
+.agileinfo-social-grids ul li a i.fa.fa-weixin, .agileinfo-social-grids ul li a i.fa.fa-qq, .agileinfo-social-grids ul li a i.fa.fa-weibo, .agileinfo-social-grids ul li a i.fa.fa-github {
     height: 30px;
     width: 30px;
     border: solid 2px #FFFFFF;
@@ -211,22 +211,22 @@ body{
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
 }
-.agileinfo-social-grids ul li a i.fa.fa-facebook:hover {
-	border: solid 2px #3b5998;
-	background:#3b5998;
+.agileinfo-social-grids ul li a i.fa.fa-weixin:hover {
+	border: solid 2px #0ecc1a;
+	background:#0ecc1a;
     color: #FFFFFF;
 }
-.agileinfo-social-grids ul li a i.fa.fa-twitter:hover{
+.agileinfo-social-grids ul li a i.fa.fa-qq:hover{
 	border: solid 2px #55acee;
 	background:#55acee;
 	color: #FFFFFF;
 }
-.agileinfo-social-grids ul li a i.fa.fa-rss:hover{
+.agileinfo-social-grids ul li a i.fa.fa-weibo:hover{
 	border: solid 2px #f26522;
 	background:#f26522;
 	color: #FFFFFF;
 }
-.agileinfo-social-grids ul li a i.fa.fa-vk:hover{
+.agileinfo-social-grids ul li a i.fa.fa-github:hover{
 	border: solid 2px #45668e;
 	background:#45668e;
 	color: #FFFFFF;
