@@ -18,7 +18,7 @@ body{
 }
 /*-- banner --*/
 .banner{
-	background: url(../images/bg1.jpg) no-repeat 0 -260px;
+	background: url(../images/bg1.jpg) no-repeat 0 0;
     background-size: cover;
     padding: 1em 0 5em;
 }
