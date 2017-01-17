@@ -31,7 +31,7 @@ var toggle_nav_container = function () {
         {
             $wrapper.removeClass('closed_wrapper');
             $wrapper.addClass("open_wrapper");
-            $navContainer.slideDown(200).addClass('container_open').css("z-index", "2");
+            $navContainer.slideDown(200).addClass('container_open');
             $menuButtonBars.removeClass('button_closed');
             $menuButtonBars.addClass('button_open');
             $("#m_ham_1").addClass("m_nav_ham_1_open");
@@ -41,7 +41,7 @@ var toggle_nav_container = function () {
         }
         else
         {
-            $navContainer.css("z-index", "0").removeClass('container_open').slideUp(200);
+            $navContainer.removeClass('container_open').slideUp(200);
             $menuButtonBars.removeClass('button_open');
             $menuButtonBars.addClass('button_closed');
             $wrapper.removeClass('open_wrapper');

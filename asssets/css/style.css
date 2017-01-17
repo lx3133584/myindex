@@ -899,7 +899,7 @@ body{
 		width: 71%;
 	}
 	#m_nav_container {
-		height: 230px !important;
+		height: 230px;
 	}
 }
 @media(max-width:667px){
