@@ -148,8 +148,6 @@
     border:1px solid #eee;
     z-index:99999;
     font-size:12px;
-    background: #000;
-    border: 1px solid #eee;
 }
 .tooltip:after, .tooltip:before
 {
