@@ -395,7 +395,7 @@ body{
     font-weight: 600;
     letter-spacing: 1px;
 }
-.agile-statistics-grid i.fa.fa-desktop,.agile-statistics-grid i.fa.fa-user,.agile-statistics-grid i.fa.fa-trophy {
+.agile-statistics-grid i.fa.fa-css3,.agile-statistics-grid i.fa.fa-user,.agile-statistics-grid i.fa.fa-wrench {
 	color: #FFFFFF;
     font-size: 2em;
     width: 100px;
@@ -982,7 +982,7 @@ body{
 		top: -77px;
 	}
 	.statistics-grid2:after {
-		right: 215px;
+		left: 216px;
 		width: 2px;
 		height: 65px;
 		top: 200px;
@@ -1002,7 +1002,7 @@ body{
 		left: 183px;
 	}
 	.statistics-grid2:after {
-		right: 183px;
+		left: 183px;
 	}
 	.w3-agile-experience-grids {
 		margin: 0em 0 0 0;
@@ -1044,7 +1044,7 @@ body{
 		left: 170px;
 	}
 	.statistics-grid2:after {
-		right: 170px;
+		left: 170px;
 	}
 	.nav-tabs > li > a {
 		font-size: .87em;
@@ -1094,7 +1094,7 @@ body{
 	.w3ls-banner-left {
 		padding: 0;
 	}
-	.agile-statistics-grid i.fa.fa-desktop, .agile-statistics-grid i.fa.fa-user, .agile-statistics-grid i.fa.fa-trophy {
+	.agile-statistics-grid i.fa.fa-css3, .agile-statistics-grid i.fa.fa-user, .agile-statistics-grid i.fa.fa-wrench {
 		width: 80px;
 		height: 80px;
 		padding: 1.2em 0 0 0;
@@ -1103,7 +1103,7 @@ body{
 		left: 135px;
 	}
 	.statistics-grid2:after {
-		right: 135px;
+		left: 135px;
 		top: 181px;
 	}
 	.experience-grid-icon i.fa.fa-folder-open, .experience-grid-icon i.fa.fa-bell, .experience-grid-icon i.fa.fa-comments, .experience-grid-icon i.fa.fa-asterisk {
