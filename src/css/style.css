@@ -395,7 +395,7 @@ body{
     font-weight: 600;
     letter-spacing: 1px;
 }
-.agile-statistics-grid i.fa.fa-css3,.agile-statistics-grid i.fa.fa-user,.agile-statistics-grid i.fa.fa-wrench {
+.agile-statistics-grid i.fa.fa-css3,.agile-statistics-grid i.fa.js,.agile-statistics-grid i.fa.fa-wrench {
 	color: #FFFFFF;
     font-size: 2em;
     width: 100px;
@@ -1094,7 +1094,7 @@ body{
 	.w3ls-banner-left {
 		padding: 0;
 	}
-	.agile-statistics-grid i.fa.fa-css3, .agile-statistics-grid i.fa.fa-user, .agile-statistics-grid i.fa.fa-wrench {
+	.agile-statistics-grid i.fa.fa-css3, .agile-statistics-grid i.fa.js, .agile-statistics-grid i.fa.fa-wrench {
 		width: 80px;
 		height: 80px;
 		padding: 1.2em 0 0 0;
