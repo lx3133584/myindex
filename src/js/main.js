@@ -6,6 +6,7 @@ $(document).ready(function(){
 
     toggle_nav_container();
     gotoByScroll();
+    iconShake();
 
 });
 
@@ -77,6 +78,15 @@ var gotoByScroll = function (){
 }
 
 
+//图标抖动
+
+var iconShake = function () {
+    $(".statistics a").bind('mouseenter',function () {
+        $(this).children('i').animate({top:"-200px"},80,function () {   //设置动画图标向上移动200px
+            $(this).css('top','200px')                                    //动画完成后将位置放在下面
+        }).animate({top:"0px"},80);                                        //设置动画图标回到原位
+    })
+}
 
 
 

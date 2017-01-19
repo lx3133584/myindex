@@ -395,14 +395,26 @@ body{
     font-weight: 600;
     letter-spacing: 1px;
 }
-.agile-statistics-grid i.fa.fa-css3,.agile-statistics-grid i.fa.js,.agile-statistics-grid i.fa.fa-wrench {
+.agile-statistics-grid a {
+    position:relative;
+    display: inline-block;
 	color: #FFFFFF;
     font-size: 2em;
     width: 100px;
     height: 100px;
     background: #ff9800;
     border-radius: 50%;
-    padding: 1.1em 0 0 0;
+    overflow: hidden;
+}
+.agile-statistics-grid a i{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 35px;
+    height: 35px;
 }
 .fa.js{
     font-weight: bold;
@@ -1098,10 +1110,9 @@ body{
 	.w3ls-banner-left {
 		padding: 0;
 	}
-	.agile-statistics-grid i.fa.fa-css3, .agile-statistics-grid i.fa.js, .agile-statistics-grid i.fa.fa-wrench {
+    .agile-statistics-grid a{
 		width: 80px;
 		height: 80px;
-		padding: 1.2em 0 0 0;
 	}
 	.statistics-grid2:before {
 		left: 135px;
