@@ -66,7 +66,7 @@ var toggle_nav_container = function () {
 var gotoByScroll = function (){
 
     $(".m_nav_item a").on("click", function(e) {
-    	//阻止冒泡
+    	//阻止默认行为
         e.preventDefault();
         $('html,body').animate({
             scrollTop: $($(this).attr("href")).offset().top - 100
