@@ -458,7 +458,7 @@ body{
     border-right: solid 1px #999999;
     border-bottom: solid 1px #999999;
 }
-.experience-grid-icon i.fa.fa-folder-open,.experience-grid-icon i.fa.fa-bell,.experience-grid-icon i.fa.fa-comments,.experience-grid-icon i.fa.fa-asterisk{
+.experience-grid-icon i.fa.fa-bank,.experience-grid-icon i.fa.fa-users,.experience-grid-icon i.fa.fa-book,.experience-grid-icon i.fa.fa-pause{
     color: #2f2f2f;
     background: none;
     border: solid 2px #ff9800;
@@ -539,7 +539,7 @@ body{
   -moz-transition: 0.5s all;
   -ms-transition: 0.5s all;
 }
-.experience-grid:hover div i.fa.fa-folder-open,.experience-grid:hover div i.fa.fa-bell,.experience-grid:hover div i.fa.fa-comments,.experience-grid:hover div i.fa.fa-asterisk{
+.experience-grid:hover div i.fa.fa-bank,.experience-grid:hover div i.fa.fa-users,.experience-grid:hover div i.fa.fa-book,.experience-grid:hover div i.fa.fa-pause{
 	color: #FFFFFF;
 }
 /*-- //experience --*/
@@ -1121,7 +1121,7 @@ body{
 		left: 135px;
 		top: 181px;
 	}
-	.experience-grid-icon i.fa.fa-folder-open, .experience-grid-icon i.fa.fa-bell, .experience-grid-icon i.fa.fa-comments, .experience-grid-icon i.fa.fa-asterisk {
+	.experience-grid-icon i.fa.fa-bank, .experience-grid-icon i.fa.fa-users, .experience-grid-icon i.fa.fa-book, .experience-grid-icon i.fa.fa-pause {
 		width: 80px;
 		height: 80px;
 		padding: .7em 0 0 0;
