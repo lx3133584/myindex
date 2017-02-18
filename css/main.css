@@ -41,7 +41,7 @@ background-size: cover;*/
     background-color: #fff;
     position: fixed;
     display: none;
-    z-index: 2;
+    z-index: 1999;
     /*	opacity: 0;*/
     top: 0;
 }
