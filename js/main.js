@@ -7,6 +7,7 @@ $(document).ready(function(){
     toggle_nav_container();
     gotoByScroll();
     iconShake();
+    log();
 
 });
 
@@ -87,6 +88,13 @@ var iconShake = function () {
         }).animate({top:"0px"},80);                                        //设置动画图标回到原位
     })
 }
+
+//控制台消息
+var log = function() {
+    console.log("%c 欢迎来到我的主页~", "color:red;font-size:30px");
+    console.log("%c 您有什么建议或意见可以通过i@myliangxu.cn联系我", "font-size:16px");
+} 
+
 
 
 
