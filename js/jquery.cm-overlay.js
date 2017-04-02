@@ -30,9 +30,8 @@
 // (next version will provide a variable for the maximum height)
 //
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-
 (function ( $ ) {
-
+    
     var isTouch = (('ontouchstart' in window) || (navigator.msMaxTouchPoints > 0));
 
 

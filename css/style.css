@@ -18,7 +18,7 @@ body{
 }
 /*-- banner --*/
 .banner{
-	background: url(../images/bg1.jpg) no-repeat 0 0;
+	background: url(http://onqbjujj0.bkt.clouddn.com/indexbg1.jpg) no-repeat 0 0;
     background-size: cover;
     padding: 1em 0 5em;
 }
@@ -363,7 +363,7 @@ body{
 /*-- //about --*/
 /*-- statistics --*/
 .statistics{
-	background:url(../images/bg2.jpg) no-repeat 0px 0px;
+	background:url(http://onqbjujj0.bkt.clouddn.com/indexbg2.jpg) no-repeat 0px 0px;
 	background-size:cover;
 }
 .jarallax {
@@ -545,7 +545,7 @@ body{
 /*-- //experience --*/
 /*-- feedback --*/
 .feedback{
-	background:url(../images/bg3.jpg) no-repeat 0px 0px;
+	background:url(http://onqbjujj0.bkt.clouddn.com/indexbg3.jpg) no-repeat 0px 0px;
 	background-size:cover;
 }
 .feedback-top{
